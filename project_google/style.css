@@ -1,0 +1,154 @@
+body
+{
+    font-family: Arial, sans-serif;
+    font-style: normal;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-bottom: 0;
+}
+#grandesection
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+#demo 
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+#img
+{
+    margin-bottom: 15px;
+    width: 15em;
+}
+#input 
+{
+    width: 400px;
+    height: 35px;
+    border-radius: 20px;
+    border: 0.5px solid black;
+    opacity: 0.3;
+    margin-bottom: 20px;
+    outline: none;
+}
+.demo2
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 150px;
+    margin: auto;
+}
+.btn
+{
+    background-color: #f3f3f3;
+    color: #222222;
+    font-size: 14px;
+    line-height: 27px;
+    padding: 8px;
+    margin: 5px;
+    border-radius: 5px;
+}
+#input:hover
+{
+    box-shadow: 2px 2px 2px 2px gray;
+}
+.lang
+{
+    font-size: 13px;
+    line-height: 28px;
+    color: #222222;
+}
+.france
+{
+    text-decoration: none;
+    color: blue;
+}
+footer
+{
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    color: grey;
+}
+#bas
+{
+    display: flex;
+    justify-content: space-between;
+    
+}
+#haut
+{
+    border: 1px solid #a8a8a8;
+    font-size: 15px;
+    color: #5f6368;
+    line-height: 20px;
+    padding-left: 15px;
+ 
+}
+.liens
+{
+    text-decoration: none;
+    padding: 10px;
+    font-size: 13px;
+    color: #5f6368;
+    line-height: 40px;
+}
+.lien_bas
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.pub
+{
+    margin-left: 15px;
+}
+.para
+{
+    margin-right: 15px;
+}
+header
+{
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+}
+
+.element_header
+{
+    display: flex;
+    margin: 10px;
+}
+
+#btn_singin
+{
+    background-color: #4285F4;
+    font-size: 13px;
+    font-weight: bold;
+    line-height: 24px;
+    color: aliceblue;
+    padding: 5px 10px;
+    border-radius: 4px;
+}
+
+a
+{
+    text-decoration: none;
+    color: #434343;
+    font-size: 15px;
+    line-height: 24px;
+
+}
+
+svg
+{
+    opacity: 0.6;
+}
